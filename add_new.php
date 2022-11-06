@@ -1,5 +1,5 @@
 <?
-include "dataBase_Coonection.php";
+include "dataBase_Connection.php";
 
 if(isset($_POST['submit'])) {
   $first_name = $_POST['first_name'];

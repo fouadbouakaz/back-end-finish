@@ -44,7 +44,7 @@
   </thead>
   <tbody>
     <?php
-    include "dataBase_Coonection.php";
+    include "dataBase_Connection.php";
 
     $sql = "SELECT * FROM `crud`";
     $result = mysqli_query($conn, $sql);

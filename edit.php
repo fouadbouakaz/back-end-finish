@@ -1,5 +1,5 @@
 <?
-include "dataBase_Coonection.php";
+include "dataBase_Connection.php";
 $id = $_GET['id'];
 
 if (isset($_POST['submit'])) {
